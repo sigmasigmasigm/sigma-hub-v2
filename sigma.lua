@@ -14067,6 +14067,8 @@ local script = G2L["41"];
 	
 	button.MouseButton1Click:Connect(function()
 		local success, err = pcall(function()
+			writefile("ARGOS.mp3"," ")
+			task.wait(2)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
 		end)
 	
