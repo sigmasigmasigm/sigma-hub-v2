@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 123 | Scripts: 36 | Modules: 0 | Tags: 0
+-- Instances: 128 | Scripts: 38 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.SigmaHubv2
@@ -59,7 +59,6 @@ G2L["6"]["TextSize"] = 14;
 G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["Size"] = UDim2.new(0, 244, 0, 32);
-G2L["6"]["Visible"] = false;
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["Text"] = [[           Speed]];
 G2L["6"]["Name"] = [[Speed]];
@@ -73,7 +72,6 @@ G2L["7"] = Instance.new("UICorner", G2L["6"]);
 
 -- StarterGui.SigmaHubv2.Frame.PlayerTab.SpeedInput
 G2L["8"] = Instance.new("TextBox", G2L["5"]);
-G2L["8"]["Visible"] = false;
 G2L["8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8"]["PlaceholderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8"]["BorderSizePixel"] = 0;
@@ -107,7 +105,6 @@ G2L["b"]["TextSize"] = 14;
 G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["Size"] = UDim2.new(0, 244, 0, 32);
-G2L["b"]["Visible"] = false;
 G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["Text"] = [[           Jump]];
 G2L["b"]["Name"] = [[Jump]];
@@ -121,7 +118,6 @@ G2L["c"] = Instance.new("UICorner", G2L["b"]);
 
 -- StarterGui.SigmaHubv2.Frame.PlayerTab.JumpInput
 G2L["d"] = Instance.new("TextBox", G2L["5"]);
-G2L["d"]["Visible"] = false;
 G2L["d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["PlaceholderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["BorderSizePixel"] = 0;
@@ -155,7 +151,6 @@ G2L["10"]["TextSize"] = 14;
 G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["10"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["Size"] = UDim2.new(0, 244, 0, 32);
-G2L["10"]["Visible"] = false;
 G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["10"]["Text"] = [[           Gravity]];
 G2L["10"]["Name"] = [[Gravity]];
@@ -169,7 +164,6 @@ G2L["11"] = Instance.new("UICorner", G2L["10"]);
 
 -- StarterGui.SigmaHubv2.Frame.PlayerTab.GravityInput
 G2L["12"] = Instance.new("TextBox", G2L["5"]);
-G2L["12"]["Visible"] = false;
 G2L["12"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["12"]["PlaceholderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["12"]["BorderSizePixel"] = 0;
@@ -203,7 +197,6 @@ G2L["15"]["TextSize"] = 14;
 G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["15"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["15"]["Size"] = UDim2.new(0, 244, 0, 32);
-G2L["15"]["Visible"] = false;
 G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["15"]["Text"] = [[           FOV]];
 G2L["15"]["Name"] = [[FOV]];
@@ -217,7 +210,6 @@ G2L["16"] = Instance.new("UICorner", G2L["15"]);
 
 -- StarterGui.SigmaHubv2.Frame.PlayerTab.FOVInput
 G2L["17"] = Instance.new("TextBox", G2L["5"]);
-G2L["17"]["Visible"] = false;
 G2L["17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["17"]["PlaceholderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["17"]["BorderSizePixel"] = 0;
@@ -253,7 +245,6 @@ G2L["1a"]["Size"] = UDim2.new(0, 30, 0, 32);
 G2L["1a"]["Name"] = [[JumpConfirmation]];
 G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1a"]["Text"] = [[✔]];
-G2L["1a"]["Visible"] = false;
 G2L["1a"]["Position"] = UDim2.new(0.40505, 0, 0.85386, 0);
 
 
@@ -278,7 +269,6 @@ G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Ubuntu.json]], Enum
 G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1d"]["BackgroundTransparency"] = 1;
 G2L["1d"]["Size"] = UDim2.new(0, 200, 0, 78);
-G2L["1d"]["Visible"] = false;
 G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1d"]["Text"] = [[]];
 G2L["1d"]["Name"] = [[Welcomemsg]];
@@ -296,7 +286,6 @@ G2L["1f"]["BorderSizePixel"] = 0;
 G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1f"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
 G2L["1f"]["Size"] = UDim2.new(0, 150, 0, 150);
-G2L["1f"]["Visible"] = false;
 G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1f"]["BackgroundTransparency"] = 1;
 G2L["1f"]["Name"] = [[Thumbnail]];
@@ -418,621 +407,675 @@ G2L["2e"] = Instance.new("LocalScript", G2L["2c"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.PlayerTabButton
+-- StarterGui.SigmaHubv2.Frame.X
 G2L["2f"] = Instance.new("TextButton", G2L["2"]);
 G2L["2f"]["BorderSizePixel"] = 0;
 G2L["2f"]["TextSize"] = 14;
 G2L["2f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
+G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(194, 0, 0);
 G2L["2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2f"]["Size"] = UDim2.new(0, 124, 0, 28);
-G2L["2f"]["Name"] = [[PlayerTabButton]];
+G2L["2f"]["Size"] = UDim2.new(0, 23, 0, 15);
+G2L["2f"]["Name"] = [[X]];
 G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Text"] = [[Player]];
-G2L["2f"]["Position"] = UDim2.new(0.02067, 0, 0.18304, 0);
+G2L["2f"]["Text"] = [[X]];
+G2L["2f"]["Position"] = UDim2.new(0.94531, 0, 0.01667, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.PlayerTabButton.UICorner
+-- StarterGui.SigmaHubv2.Frame.X.UICorner
 G2L["30"] = Instance.new("UICorner", G2L["2f"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.PlayerTabButton.LocalScript
+-- StarterGui.SigmaHubv2.Frame.X.LocalScript
 G2L["31"] = Instance.new("LocalScript", G2L["2f"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.AdminTabButton
-G2L["32"] = Instance.new("TextButton", G2L["2"]);
-G2L["32"]["BorderSizePixel"] = 0;
-G2L["32"]["TextSize"] = 14;
-G2L["32"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["32"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
-G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["32"]["Size"] = UDim2.new(0, 124, 0, 28);
-G2L["32"]["Name"] = [[AdminTabButton]];
-G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["32"]["Text"] = [[Admins]];
-G2L["32"]["Position"] = UDim2.new(0.2346, 0, 0.18304, 0);
-
-
--- StarterGui.SigmaHubv2.Frame.AdminTabButton.UICorner
-G2L["33"] = Instance.new("UICorner", G2L["32"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.AdminTabButton.LocalScript
-G2L["34"] = Instance.new("LocalScript", G2L["32"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.X
-G2L["35"] = Instance.new("TextButton", G2L["2"]);
-G2L["35"]["BorderSizePixel"] = 0;
-G2L["35"]["TextSize"] = 14;
-G2L["35"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["BackgroundColor3"] = Color3.fromRGB(194, 0, 0);
-G2L["35"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["35"]["Size"] = UDim2.new(0, 23, 0, 15);
-G2L["35"]["Name"] = [[X]];
-G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["Text"] = [[X]];
-G2L["35"]["Position"] = UDim2.new(0.94531, 0, 0.01667, 0);
-
-
--- StarterGui.SigmaHubv2.Frame.X.UICorner
-G2L["36"] = Instance.new("UICorner", G2L["35"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.X.LocalScript
-G2L["37"] = Instance.new("LocalScript", G2L["35"]);
-
-
-
 -- StarterGui.SigmaHubv2.Frame.TsbTab
-G2L["38"] = Instance.new("Folder", G2L["2"]);
-G2L["38"]["Name"] = [[TsbTab]];
+G2L["32"] = Instance.new("Folder", G2L["2"]);
+G2L["32"]["Name"] = [[TsbTab]];
 
 
 -- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub
-G2L["39"] = Instance.new("TextButton", G2L["38"]);
+G2L["33"] = Instance.new("TextButton", G2L["32"]);
+G2L["33"]["BorderSizePixel"] = 0;
+G2L["33"]["TextSize"] = 14;
+G2L["33"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["33"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
+G2L["33"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["33"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["33"]["Name"] = [[GlacierHub]];
+G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["33"]["Text"] = [[Glacier Hub]];
+G2L["33"]["Visible"] = false;
+G2L["33"]["Position"] = UDim2.new(0.02307, 0, 0.36642, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub.UICorner
+G2L["34"] = Instance.new("UICorner", G2L["33"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub.LocalScript
+G2L["35"] = Instance.new("LocalScript", G2L["33"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura
+G2L["36"] = Instance.new("TextButton", G2L["32"]);
+G2L["36"]["BorderSizePixel"] = 0;
+G2L["36"]["TextSize"] = 14;
+G2L["36"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
+G2L["36"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["36"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["36"]["Name"] = [[Arcaura]];
+G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Text"] = [[Arcaura V2]];
+G2L["36"]["Visible"] = false;
+G2L["36"]["Position"] = UDim2.new(0.0215, 0, 0.48586, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura.UICorner
+G2L["37"] = Instance.new("UICorner", G2L["36"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura.LocalScript
+G2L["38"] = Instance.new("LocalScript", G2L["36"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia
+G2L["39"] = Instance.new("TextButton", G2L["32"]);
 G2L["39"]["BorderSizePixel"] = 0;
 G2L["39"]["TextSize"] = 14;
 G2L["39"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["39"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["39"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["39"]["Name"] = [[GlacierHub]];
+G2L["39"]["Name"] = [[Apophenia]];
 G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Text"] = [[Glacier Hub]];
+G2L["39"]["Text"] = [[Apophenia]];
 G2L["39"]["Visible"] = false;
-G2L["39"]["Position"] = UDim2.new(0.0215, 0, 0.28864, 0);
+G2L["39"]["Position"] = UDim2.new(0.02307, 0, 0.60808, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia.UICorner
 G2L["3a"] = Instance.new("UICorner", G2L["39"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia.LocalScript
 G2L["3b"] = Instance.new("LocalScript", G2L["39"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura
-G2L["3c"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Volta
+G2L["3c"] = Instance.new("TextButton", G2L["32"]);
 G2L["3c"]["BorderSizePixel"] = 0;
 G2L["3c"]["TextSize"] = 14;
 G2L["3c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["3c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["3c"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["3c"]["Name"] = [[Arcaura]];
+G2L["3c"]["Name"] = [[Volta]];
 G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3c"]["Text"] = [[Arcaura V2 (for garou)]];
+G2L["3c"]["Text"] = [[Volta]];
 G2L["3c"]["Visible"] = false;
-G2L["3c"]["Position"] = UDim2.new(0.01994, 0, 0.40808, 0);
+G2L["3c"]["Position"] = UDim2.new(0.0215, 0, 0.73031, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Volta.UICorner
 G2L["3d"] = Instance.new("UICorner", G2L["3c"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Volta.LocalScript
 G2L["3e"] = Instance.new("LocalScript", G2L["3c"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia
-G2L["3f"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm
+G2L["3f"] = Instance.new("TextButton", G2L["32"]);
 G2L["3f"]["BorderSizePixel"] = 0;
 G2L["3f"]["TextSize"] = 14;
 G2L["3f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["3f"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["3f"]["Name"] = [[Apophenia]];
+G2L["3f"]["Name"] = [[Phantasm]];
 G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3f"]["Text"] = [[Apophenia (for metal bat)]];
+G2L["3f"]["Text"] = [[Phantasm]];
 G2L["3f"]["Visible"] = false;
-G2L["3f"]["Position"] = UDim2.new(0.0215, 0, 0.53031, 0);
+G2L["3f"]["Position"] = UDim2.new(0.0215, 0, 0.84975, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm.UICorner
 G2L["40"] = Instance.new("UICorner", G2L["3f"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm.LocalScript
 G2L["41"] = Instance.new("LocalScript", G2L["3f"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Volta
-G2L["42"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr
+G2L["42"] = Instance.new("TextButton", G2L["32"]);
 G2L["42"]["BorderSizePixel"] = 0;
 G2L["42"]["TextSize"] = 14;
 G2L["42"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["42"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["42"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["42"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["42"]["Name"] = [[Volta]];
+G2L["42"]["Name"] = [[Hubfr]];
 G2L["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["42"]["Text"] = [[Volta (for sonic)]];
+G2L["42"]["Text"] = [[Hub fr]];
 G2L["42"]["Visible"] = false;
-G2L["42"]["Position"] = UDim2.new(0.01994, 0, 0.65253, 0);
+G2L["42"]["Position"] = UDim2.new(0.41994, 0, 0.84975, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Volta.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr.UICorner
 G2L["43"] = Instance.new("UICorner", G2L["42"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Volta.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr.LocalScript
 G2L["44"] = Instance.new("LocalScript", G2L["42"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm
-G2L["45"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub
+G2L["45"] = Instance.new("TextButton", G2L["32"]);
 G2L["45"]["BorderSizePixel"] = 0;
 G2L["45"]["TextSize"] = 14;
 G2L["45"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["45"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["45"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["45"]["Name"] = [[Phantasm]];
+G2L["45"]["Name"] = [[LimitlessHub]];
 G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["45"]["Text"] = [[Phantasm]];
+G2L["45"]["Text"] = [[Limitless Hub]];
 G2L["45"]["Visible"] = false;
-G2L["45"]["Position"] = UDim2.new(0.01994, 0, 0.77197, 0);
+G2L["45"]["Position"] = UDim2.new(0.41994, 0, 0.36642, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub.UICorner
 G2L["46"] = Instance.new("UICorner", G2L["45"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub.LocalScript
 G2L["47"] = Instance.new("LocalScript", G2L["45"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr
-G2L["48"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito
+G2L["48"] = Instance.new("TextButton", G2L["32"]);
 G2L["48"]["BorderSizePixel"] = 0;
 G2L["48"]["TextSize"] = 14;
 G2L["48"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["48"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["48"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["48"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["48"]["Name"] = [[Hubfr]];
+G2L["48"]["Name"] = [[Mahito]];
 G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["48"]["Text"] = [[Hub fr (garou reskins)]];
+G2L["48"]["Text"] = [[Mahito]];
 G2L["48"]["Visible"] = false;
-G2L["48"]["Position"] = UDim2.new(0.01994, 0, 0.88864, 0);
+G2L["48"]["Position"] = UDim2.new(0.41994, 0, 0.48586, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito.UICorner
 G2L["49"] = Instance.new("UICorner", G2L["48"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito.LocalScript
 G2L["4a"] = Instance.new("LocalScript", G2L["48"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub
-G2L["4b"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Golden
+G2L["4b"] = Instance.new("TextButton", G2L["32"]);
 G2L["4b"]["BorderSizePixel"] = 0;
 G2L["4b"]["TextSize"] = 14;
 G2L["4b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["4b"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["4b"]["Name"] = [[LimitlessHub]];
+G2L["4b"]["Name"] = [[Golden]];
 G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4b"]["Text"] = [[Limitless Hub]];
+G2L["4b"]["Text"] = [[Golden]];
 G2L["4b"]["Visible"] = false;
-G2L["4b"]["Position"] = UDim2.new(0.41838, 0, 0.28864, 0);
+G2L["4b"]["Position"] = UDim2.new(0.41994, 0, 0.60808, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Golden.UICorner
 G2L["4c"] = Instance.new("UICorner", G2L["4b"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Golden.LocalScript
 G2L["4d"] = Instance.new("LocalScript", G2L["4b"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito
-G2L["4e"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo
+G2L["4e"] = Instance.new("TextButton", G2L["32"]);
 G2L["4e"]["BorderSizePixel"] = 0;
 G2L["4e"]["TextSize"] = 14;
 G2L["4e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
 G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["4e"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["4e"]["Name"] = [[Mahito]];
+G2L["4e"]["Name"] = [[Gojo]];
 G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4e"]["Text"] = [[Mahito (for saitama)]];
+G2L["4e"]["Text"] = [[Gojo]];
 G2L["4e"]["Visible"] = false;
-G2L["4e"]["Position"] = UDim2.new(0.41838, 0, 0.40808, 0);
+G2L["4e"]["Position"] = UDim2.new(0.41994, 0, 0.73308, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo.UICorner
 G2L["4f"] = Instance.new("UICorner", G2L["4e"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo.LocalScript
 G2L["50"] = Instance.new("LocalScript", G2L["4e"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Golden
-G2L["51"] = Instance.new("TextButton", G2L["38"]);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.DescriptionToggle
+G2L["51"] = Instance.new("TextButton", G2L["32"]);
 G2L["51"]["BorderSizePixel"] = 0;
 G2L["51"]["TextSize"] = 14;
 G2L["51"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
+G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 5);
 G2L["51"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["51"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["51"]["Name"] = [[Golden]];
+G2L["51"]["Size"] = UDim2.new(0, 28, 0, 24);
+G2L["51"]["Name"] = [[DescriptionToggle]];
 G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["51"]["Text"] = [[Golden (for saitama)]];
+G2L["51"]["Text"] = [[]];
 G2L["51"]["Visible"] = false;
-G2L["51"]["Position"] = UDim2.new(0.41838, 0, 0.53031, 0);
+G2L["51"]["Position"] = UDim2.new(0.02307, 0, 0.28308, 0);
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Golden.UICorner
+-- StarterGui.SigmaHubv2.Frame.TsbTab.DescriptionToggle.UICorner
 G2L["52"] = Instance.new("UICorner", G2L["51"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Golden.LocalScript
+-- StarterGui.SigmaHubv2.Frame.TsbTab.DescriptionToggle.LocalScript
 G2L["53"] = Instance.new("LocalScript", G2L["51"]);
+G2L["53"]["Enabled"] = false;
+G2L["53"]["Disabled"] = true;
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTab.DescriptionToggle.LocalScript
+G2L["54"] = Instance.new("LocalScript", G2L["51"]);
 
 
 
--- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo
-G2L["54"] = Instance.new("TextButton", G2L["38"]);
-G2L["54"]["BorderSizePixel"] = 0;
-G2L["54"]["TextSize"] = 14;
-G2L["54"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["54"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
-G2L["54"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["54"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["54"]["Name"] = [[Gojo]];
-G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["54"]["Text"] = [[Gojo (for saitama)]];
-G2L["54"]["Visible"] = false;
-G2L["54"]["Position"] = UDim2.new(0.41838, 0, 0.65531, 0);
-
-
--- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo.UICorner
-G2L["55"] = Instance.new("UICorner", G2L["54"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo.LocalScript
-G2L["56"] = Instance.new("LocalScript", G2L["54"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.TsbTabButton
-G2L["57"] = Instance.new("TextButton", G2L["2"]);
-G2L["57"]["BorderSizePixel"] = 0;
-G2L["57"]["TextSize"] = 14;
-G2L["57"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
-G2L["57"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["57"]["Size"] = UDim2.new(0, 124, 0, 28);
-G2L["57"]["Name"] = [[TsbTabButton]];
-G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["57"]["Text"] = [[TSB]];
-G2L["57"]["Position"] = UDim2.new(0.44553, 0, 0.18304, 0);
-
-
--- StarterGui.SigmaHubv2.Frame.TsbTabButton.UICorner
-G2L["58"] = Instance.new("UICorner", G2L["57"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.TsbTabButton.LocalScript
-G2L["59"] = Instance.new("LocalScript", G2L["57"]);
-
+-- StarterGui.SigmaHubv2.Frame.TsbTab.ToggleLabel
+G2L["55"] = Instance.new("TextLabel", G2L["32"]);
+G2L["55"]["TextWrapped"] = true;
+G2L["55"]["BorderSizePixel"] = 0;
+G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["TextSize"] = 14;
+G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["55"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["BackgroundTransparency"] = 1;
+G2L["55"]["Size"] = UDim2.new(0, 200, 0, 24);
+G2L["55"]["Visible"] = false;
+G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["Text"] = [[Toggle Descriptions]];
+G2L["55"]["Name"] = [[ToggleLabel]];
+G2L["55"]["Position"] = UDim2.new(0, 0, 0.28308, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.-
-G2L["5a"] = Instance.new("TextButton", G2L["2"]);
-G2L["5a"]["BorderSizePixel"] = 0;
-G2L["5a"]["TextSize"] = 14;
-G2L["5a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(194, 0, 0);
-G2L["5a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5a"]["Size"] = UDim2.new(0, 23, 0, 15);
-G2L["5a"]["Name"] = [[-]];
-G2L["5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5a"]["Text"] = [[-]];
-G2L["5a"]["Position"] = UDim2.new(0.89844, 0, 0.01667, 0);
+G2L["56"] = Instance.new("TextButton", G2L["2"]);
+G2L["56"]["BorderSizePixel"] = 0;
+G2L["56"]["TextSize"] = 14;
+G2L["56"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["56"]["BackgroundColor3"] = Color3.fromRGB(194, 0, 0);
+G2L["56"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["56"]["Size"] = UDim2.new(0, 23, 0, 15);
+G2L["56"]["Name"] = [[-]];
+G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["56"]["Text"] = [[-]];
+G2L["56"]["Position"] = UDim2.new(0.89844, 0, 0.01667, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.-.UICorner
-G2L["5b"] = Instance.new("UICorner", G2L["5a"]);
+G2L["57"] = Instance.new("UICorner", G2L["56"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.-.LocalScript
-G2L["5c"] = Instance.new("LocalScript", G2L["5a"]);
+G2L["58"] = Instance.new("LocalScript", G2L["56"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.UICorner
-G2L["5d"] = Instance.new("UICorner", G2L["2"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.ThemeTabButton
-G2L["5e"] = Instance.new("TextButton", G2L["2"]);
-G2L["5e"]["BorderSizePixel"] = 0;
-G2L["5e"]["TextSize"] = 14;
-G2L["5e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5e"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
-G2L["5e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5e"]["Size"] = UDim2.new(0, 124, 0, 28);
-G2L["5e"]["Name"] = [[ThemeTabButton]];
-G2L["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5e"]["Text"] = [[Themes]];
-G2L["5e"]["Position"] = UDim2.new(0.65647, 0, 0.18304, 0);
-
-
--- StarterGui.SigmaHubv2.Frame.ThemeTabButton.UICorner
-G2L["5f"] = Instance.new("UICorner", G2L["5e"]);
-
-
-
--- StarterGui.SigmaHubv2.Frame.ThemeTabButton.LocalScript
-G2L["60"] = Instance.new("LocalScript", G2L["5e"]);
+G2L["59"] = Instance.new("UICorner", G2L["2"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab
-G2L["61"] = Instance.new("Folder", G2L["2"]);
-G2L["61"]["Name"] = [[ThemesTab]];
+G2L["5a"] = Instance.new("Folder", G2L["2"]);
+G2L["5a"]["Name"] = [[ThemesTab]];
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Yellow
-G2L["62"] = Instance.new("TextButton", G2L["61"]);
-G2L["62"]["BorderSizePixel"] = 0;
-G2L["62"]["TextSize"] = 14;
-G2L["62"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["62"]["BackgroundColor3"] = Color3.fromRGB(221, 233, 0);
-G2L["62"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["62"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["62"]["Name"] = [[Yellow]];
-G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["62"]["Text"] = [[Yellow]];
-G2L["62"]["Position"] = UDim2.new(0.0215, 0, 0.29701, 0);
+G2L["5b"] = Instance.new("TextButton", G2L["5a"]);
+G2L["5b"]["BorderSizePixel"] = 0;
+G2L["5b"]["TextSize"] = 14;
+G2L["5b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(221, 233, 0);
+G2L["5b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5b"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["5b"]["Name"] = [[Yellow]];
+G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5b"]["Text"] = [[Yellow]];
+G2L["5b"]["Visible"] = false;
+G2L["5b"]["Position"] = UDim2.new(0.0215, 0, 0.29701, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Yellow.UICorner
-G2L["63"] = Instance.new("UICorner", G2L["62"]);
+G2L["5c"] = Instance.new("UICorner", G2L["5b"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Yellow.LocalScript
-G2L["64"] = Instance.new("LocalScript", G2L["62"]);
+G2L["5d"] = Instance.new("LocalScript", G2L["5b"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Cyan
-G2L["65"] = Instance.new("TextButton", G2L["61"]);
-G2L["65"]["BorderSizePixel"] = 0;
-G2L["65"]["TextSize"] = 14;
-G2L["65"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["65"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
-G2L["65"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["65"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["65"]["Name"] = [[Cyan]];
-G2L["65"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["65"]["Text"] = [[Cyan]];
-G2L["65"]["Position"] = UDim2.new(0.0215, 0, 0.4109, 0);
+G2L["5e"] = Instance.new("TextButton", G2L["5a"]);
+G2L["5e"]["BorderSizePixel"] = 0;
+G2L["5e"]["TextSize"] = 14;
+G2L["5e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["BackgroundColor3"] = Color3.fromRGB(10, 185, 194);
+G2L["5e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5e"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["5e"]["Name"] = [[Cyan]];
+G2L["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["Text"] = [[Cyan]];
+G2L["5e"]["Visible"] = false;
+G2L["5e"]["Position"] = UDim2.new(0.0215, 0, 0.4109, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Cyan.UICorner
-G2L["66"] = Instance.new("UICorner", G2L["65"]);
+G2L["5f"] = Instance.new("UICorner", G2L["5e"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Cyan.LocalScript
-G2L["67"] = Instance.new("LocalScript", G2L["65"]);
+G2L["60"] = Instance.new("LocalScript", G2L["5e"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Red
-G2L["68"] = Instance.new("TextButton", G2L["61"]);
-G2L["68"]["BorderSizePixel"] = 0;
-G2L["68"]["TextSize"] = 14;
-G2L["68"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["68"]["BackgroundColor3"] = Color3.fromRGB(221, 6, 6);
-G2L["68"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["68"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["68"]["Name"] = [[Red]];
-G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["68"]["Text"] = [[Red]];
-G2L["68"]["Position"] = UDim2.new(0.02067, 0, 0.51785, 0);
+G2L["61"] = Instance.new("TextButton", G2L["5a"]);
+G2L["61"]["BorderSizePixel"] = 0;
+G2L["61"]["TextSize"] = 14;
+G2L["61"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["61"]["BackgroundColor3"] = Color3.fromRGB(221, 6, 6);
+G2L["61"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["61"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["61"]["Name"] = [[Red]];
+G2L["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["61"]["Text"] = [[Red]];
+G2L["61"]["Visible"] = false;
+G2L["61"]["Position"] = UDim2.new(0.02067, 0, 0.51785, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Red.UICorner
-G2L["69"] = Instance.new("UICorner", G2L["68"]);
+G2L["62"] = Instance.new("UICorner", G2L["61"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Red.LocalScript
-G2L["6a"] = Instance.new("LocalScript", G2L["68"]);
+G2L["63"] = Instance.new("LocalScript", G2L["61"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Pink
-G2L["6b"] = Instance.new("TextButton", G2L["61"]);
-G2L["6b"]["BorderSizePixel"] = 0;
-G2L["6b"]["TextSize"] = 14;
-G2L["6b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 47, 218);
-G2L["6b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6b"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["6b"]["Name"] = [[Pink]];
-G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["Text"] = [[Pink]];
-G2L["6b"]["Position"] = UDim2.new(0.02067, 0, 0.62618, 0);
+G2L["64"] = Instance.new("TextButton", G2L["5a"]);
+G2L["64"]["BorderSizePixel"] = 0;
+G2L["64"]["TextSize"] = 14;
+G2L["64"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 47, 218);
+G2L["64"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["64"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["64"]["Name"] = [[Pink]];
+G2L["64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Text"] = [[Pink]];
+G2L["64"]["Visible"] = false;
+G2L["64"]["Position"] = UDim2.new(0.02067, 0, 0.62618, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Pink.UICorner
-G2L["6c"] = Instance.new("UICorner", G2L["6b"]);
+G2L["65"] = Instance.new("UICorner", G2L["64"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Pink.LocalScript
-G2L["6d"] = Instance.new("LocalScript", G2L["6b"]);
+G2L["66"] = Instance.new("LocalScript", G2L["64"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Green
-G2L["6e"] = Instance.new("TextButton", G2L["61"]);
-G2L["6e"]["BorderSizePixel"] = 0;
-G2L["6e"]["TextSize"] = 14;
-G2L["6e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(32, 255, 58);
-G2L["6e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6e"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["6e"]["Name"] = [[Green]];
-G2L["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6e"]["Text"] = [[Green]];
-G2L["6e"]["Position"] = UDim2.new(0.02067, 0, 0.73729, 0);
+G2L["67"] = Instance.new("TextButton", G2L["5a"]);
+G2L["67"]["BorderSizePixel"] = 0;
+G2L["67"]["TextSize"] = 14;
+G2L["67"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["67"]["BackgroundColor3"] = Color3.fromRGB(32, 255, 58);
+G2L["67"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["67"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["67"]["Name"] = [[Green]];
+G2L["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["67"]["Text"] = [[Green]];
+G2L["67"]["Visible"] = false;
+G2L["67"]["Position"] = UDim2.new(0.02067, 0, 0.73729, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Green.UICorner
-G2L["6f"] = Instance.new("UICorner", G2L["6e"]);
+G2L["68"] = Instance.new("UICorner", G2L["67"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Green.LocalScript
-G2L["70"] = Instance.new("LocalScript", G2L["6e"]);
+G2L["69"] = Instance.new("LocalScript", G2L["67"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Orange
-G2L["71"] = Instance.new("TextButton", G2L["61"]);
-G2L["71"]["BorderSizePixel"] = 0;
-G2L["71"]["TextSize"] = 14;
-G2L["71"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["BackgroundColor3"] = Color3.fromRGB(255, 155, 39);
-G2L["71"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["71"]["Size"] = UDim2.new(0, 243, 0, 32);
-G2L["71"]["Name"] = [[Orange]];
-G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["Text"] = [[Orange]];
-G2L["71"]["Position"] = UDim2.new(0.0215, 0, 0.85257, 0);
+G2L["6a"] = Instance.new("TextButton", G2L["5a"]);
+G2L["6a"]["BorderSizePixel"] = 0;
+G2L["6a"]["TextSize"] = 14;
+G2L["6a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6a"]["BackgroundColor3"] = Color3.fromRGB(255, 155, 39);
+G2L["6a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6a"]["Size"] = UDim2.new(0, 243, 0, 32);
+G2L["6a"]["Name"] = [[Orange]];
+G2L["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6a"]["Text"] = [[Orange]];
+G2L["6a"]["Visible"] = false;
+G2L["6a"]["Position"] = UDim2.new(0.0215, 0, 0.85257, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Orange.UICorner
-G2L["72"] = Instance.new("UICorner", G2L["71"]);
+G2L["6b"] = Instance.new("UICorner", G2L["6a"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.ThemesTab.Orange.LocalScript
-G2L["73"] = Instance.new("LocalScript", G2L["71"]);
+G2L["6c"] = Instance.new("LocalScript", G2L["6a"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame.dragscript
-G2L["74"] = Instance.new("LocalScript", G2L["2"]);
-G2L["74"]["Name"] = [[dragscript]];
+G2L["6d"] = Instance.new("LocalScript", G2L["2"]);
+G2L["6d"]["Name"] = [[dragscript]];
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTabButton
+G2L["6e"] = Instance.new("TextButton", G2L["2"]);
+G2L["6e"]["BorderSizePixel"] = 0;
+G2L["6e"]["TextSize"] = 14;
+G2L["6e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6e"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
+G2L["6e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6e"]["Size"] = UDim2.new(0, 124, 0, 28);
+G2L["6e"]["Name"] = [[TsbTabButton]];
+G2L["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6e"]["Text"] = [[TSB]];
+G2L["6e"]["Position"] = UDim2.new(0.44553, 0, 0.18304, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTabButton.UICorner
+G2L["6f"] = Instance.new("UICorner", G2L["6e"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.TsbTabButton.LocalScript
+G2L["70"] = Instance.new("LocalScript", G2L["6e"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.ThemeTabButton
+G2L["71"] = Instance.new("TextButton", G2L["2"]);
+G2L["71"]["BorderSizePixel"] = 0;
+G2L["71"]["TextSize"] = 14;
+G2L["71"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["71"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
+G2L["71"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["71"]["Size"] = UDim2.new(0, 124, 0, 28);
+G2L["71"]["Name"] = [[ThemeTabButton]];
+G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["71"]["Text"] = [[Themes]];
+G2L["71"]["Position"] = UDim2.new(0.65647, 0, 0.18304, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.ThemeTabButton.UICorner
+G2L["72"] = Instance.new("UICorner", G2L["71"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.ThemeTabButton.LocalScript
+G2L["73"] = Instance.new("LocalScript", G2L["71"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.AdminTabButton
+G2L["74"] = Instance.new("TextButton", G2L["2"]);
+G2L["74"]["BorderSizePixel"] = 0;
+G2L["74"]["TextSize"] = 14;
+G2L["74"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["74"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
+G2L["74"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["74"]["Size"] = UDim2.new(0, 124, 0, 28);
+G2L["74"]["Name"] = [[AdminTabButton]];
+G2L["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["74"]["Text"] = [[Admins]];
+G2L["74"]["Position"] = UDim2.new(0.2346, 0, 0.18304, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.AdminTabButton.UICorner
+G2L["75"] = Instance.new("UICorner", G2L["74"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.AdminTabButton.LocalScript
+G2L["76"] = Instance.new("LocalScript", G2L["74"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.PlayerTabButton
+G2L["77"] = Instance.new("TextButton", G2L["2"]);
+G2L["77"]["BorderSizePixel"] = 0;
+G2L["77"]["TextSize"] = 14;
+G2L["77"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["77"]["BackgroundColor3"] = Color3.fromRGB(10, 144, 201);
+G2L["77"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["77"]["Size"] = UDim2.new(0, 124, 0, 28);
+G2L["77"]["Name"] = [[PlayerTabButton]];
+G2L["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["77"]["Text"] = [[Player]];
+G2L["77"]["Position"] = UDim2.new(0.02067, 0, 0.18304, 0);
+
+
+-- StarterGui.SigmaHubv2.Frame.PlayerTabButton.UICorner
+G2L["78"] = Instance.new("UICorner", G2L["77"]);
+
+
+
+-- StarterGui.SigmaHubv2.Frame.PlayerTabButton.LocalScript
+G2L["79"] = Instance.new("LocalScript", G2L["77"]);
+
 
 
 -- StarterGui.SigmaHubv2.Frame2
-G2L["75"] = Instance.new("Frame", G2L["1"]);
-G2L["75"]["BorderSizePixel"] = 0;
-G2L["75"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["75"]["Size"] = UDim2.new(0, 100, 0, 33);
-G2L["75"]["Position"] = UDim2.new(0.00839, 0, 0.95351, 0);
-G2L["75"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["75"]["Name"] = [[Frame2]];
-G2L["75"]["BackgroundTransparency"] = 1;
+G2L["7a"] = Instance.new("Frame", G2L["1"]);
+G2L["7a"]["BorderSizePixel"] = 0;
+G2L["7a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7a"]["Size"] = UDim2.new(0, 100, 0, 33);
+G2L["7a"]["Position"] = UDim2.new(0.00839, 0, 0.95351, 0);
+G2L["7a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7a"]["Name"] = [[Frame2]];
+G2L["7a"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.SigmaHubv2.Frame2.OpenGUI
-G2L["76"] = Instance.new("TextButton", G2L["75"]);
-G2L["76"]["BorderSizePixel"] = 0;
-G2L["76"]["TextSize"] = 14;
-G2L["76"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["76"]["BackgroundColor3"] = Color3.fromRGB(18, 159, 136);
-G2L["76"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["76"]["Size"] = UDim2.new(0, 119, 0, 33);
-G2L["76"]["Name"] = [[OpenGUI]];
-G2L["76"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["76"]["Text"] = [[Open Sigma Hub]];
-G2L["76"]["Visible"] = false;
-G2L["76"]["Position"] = UDim2.new(0.01, 0, -1.21212, 0);
+G2L["7b"] = Instance.new("TextButton", G2L["7a"]);
+G2L["7b"]["BorderSizePixel"] = 0;
+G2L["7b"]["TextSize"] = 14;
+G2L["7b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(18, 159, 136);
+G2L["7b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7b"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["7b"]["Name"] = [[OpenGUI]];
+G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7b"]["Text"] = [[Open Sigma Hub]];
+G2L["7b"]["Visible"] = false;
+G2L["7b"]["Position"] = UDim2.new(0.01, 0, -1.21212, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame2.OpenGUI.UICorner
-G2L["77"] = Instance.new("UICorner", G2L["76"]);
+G2L["7c"] = Instance.new("UICorner", G2L["7b"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame2.OpenGUI.LocalScript
-G2L["78"] = Instance.new("LocalScript", G2L["76"]);
+G2L["7d"] = Instance.new("LocalScript", G2L["7b"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame2.FixGUI
-G2L["79"] = Instance.new("TextButton", G2L["75"]);
-G2L["79"]["BorderSizePixel"] = 0;
-G2L["79"]["TextSize"] = 14;
-G2L["79"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["BackgroundColor3"] = Color3.fromRGB(18, 159, 136);
-G2L["79"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["79"]["Size"] = UDim2.new(0, 119, 0, 33);
-G2L["79"]["Name"] = [[FixGUI]];
-G2L["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["Text"] = [[Fix Sigma Hub]];
-G2L["79"]["Position"] = UDim2.new(0.01, 0, 0.06061, 0);
+G2L["7e"] = Instance.new("TextButton", G2L["7a"]);
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["TextSize"] = 14;
+G2L["7e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(18, 159, 136);
+G2L["7e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7e"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["7e"]["Name"] = [[FixGUI]];
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Text"] = [[Fix Sigma Hub]];
+G2L["7e"]["Position"] = UDim2.new(0.01, 0, 0.06061, 0);
 
 
 -- StarterGui.SigmaHubv2.Frame2.FixGUI.UICorner
-G2L["7a"] = Instance.new("UICorner", G2L["79"]);
+G2L["7f"] = Instance.new("UICorner", G2L["7e"]);
 
 
 
 -- StarterGui.SigmaHubv2.Frame2.FixGUI.LocalScript
-G2L["7b"] = Instance.new("LocalScript", G2L["79"]);
+G2L["80"] = Instance.new("LocalScript", G2L["7e"]);
 
 
 
@@ -13907,155 +13950,9 @@ local script = G2L["2e"];
 	
 end;
 task.spawn(C_2e);
--- StarterGui.SigmaHubv2.Frame.PlayerTabButton.LocalScript
+-- StarterGui.SigmaHubv2.Frame.X.LocalScript
 local function C_31()
 local script = G2L["31"];
-	local button = script.Parent
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local YellowTheme = button.Parent.ThemesTab.Yellow
-	local CyanTheme = button.Parent.ThemesTab.Cyan
-	local RedTheme = button.Parent.ThemesTab.Red
-	local PinkTheme = button.Parent.ThemesTab.Pink
-	local GreenTheme = button.Parent.ThemesTab.Green
-	local CMDX = button.Parent.AdminTab.CMDX
-	local OrangeTheme = button.Parent.ThemesTab.Orange
-	
-	
-	button.MouseButton1Click:Connect(function()
-		Speed.Visible = true
-		Jump.Visible = true
-		SpeedInput.Visible = true
-		JumpInput.Visible = true
-		Gravity.Visible = true
-		GravityInput.Visible = true
-		FOVInput.Visible = true
-		FOV.Visible = true
-		FatesAdmin.Visible = false
-		InfiniteYield.Visible = false
-		NamelessAdmin.Visible = false
-		Volta.Visible = false
-		Apophenia.Visible = false
-		Arcaura.Visible = false
-		GlacierHub.Visible = false
-		JumpCon.Visible = true
-		Phantasm.Visible = false
-		Golden.Visible = false
-		Mahito.Visible = false
-		LimitlessHub.Visible = false
-		Hubfr.Visible = false
-		Gojo.Visible = false
-		Thumbnail.Visible = true
-		WelcomeMsg.Visible = true
-		YellowTheme.Visible = false
-		CyanTheme.Visible = false
-		RedTheme.Visible = false
-		PinkTheme.Visible = false
-		GreenTheme.Visible = false
-		CMDX.Visible = false
-		OrangeTheme.Visible = false
-	end)
-	
-end;
-task.spawn(C_31);
--- StarterGui.SigmaHubv2.Frame.AdminTabButton.LocalScript
-local function C_34()
-local script = G2L["34"];
-	local button = script.Parent
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local YellowTheme = button.Parent.ThemesTab.Yellow
-	local CyanTheme = button.Parent.ThemesTab.Cyan
-	local RedTheme = button.Parent.ThemesTab.Red
-	local PinkTheme = button.Parent.ThemesTab.Pink
-	local GreenTheme = button.Parent.ThemesTab.Green
-	local CMDX = button.Parent.AdminTab.CMDX
-	local OrangeTheme = button.Parent.ThemesTab.Orange
-	
-	
-	button.MouseButton1Click:Connect(function()
-		Speed.Visible = false
-		Jump.Visible = false
-		SpeedInput.Visible = false
-		JumpInput.Visible = false
-		Gravity.Visible = false
-		GravityInput.Visible = false
-		FOVInput.Visible = false
-		FOV.Visible = false
-		FatesAdmin.Visible = true
-		InfiniteYield.Visible = true
-		NamelessAdmin.Visible = true
-		Volta.Visible = false
-		Apophenia.Visible = false
-		Arcaura.Visible = false
-		GlacierHub.Visible = false
-		JumpCon.Visible = false
-		Phantasm.Visible = false
-		Hubfr.Visible = false
-		LimitlessHub.Visible = false
-		Mahito.Visible = false
-		Golden.Visible = false
-		Gojo.Visible = false
-		Thumbnail.Visible = false
-		WelcomeMsg.Visible = false
-		YellowTheme.Visible = false
-		CyanTheme.Visible = false
-		RedTheme.Visible = false
-		PinkTheme.Visible = false
-		GreenTheme.Visible = false
-		CMDX.Visible = true
-		OrangeTheme.Visible = false
-	end)
-	
-end;
-task.spawn(C_34);
--- StarterGui.SigmaHubv2.Frame.X.LocalScript
-local function C_37()
-local script = G2L["37"];
 	local button = script.Parent
 	local gui = button.Parent
 	local fixbutton = button.Parent.Parent.Frame2.FixGUI
@@ -14065,10 +13962,10 @@ local script = G2L["37"];
 		fixbutton.Visible = false
 	end)
 end;
-task.spawn(C_37);
+task.spawn(C_31);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.GlacierHub.LocalScript
-local function C_3b()
-local script = G2L["3b"];
+local function C_35()
+local script = G2L["35"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14084,10 +13981,10 @@ local script = G2L["3b"];
 	end)
 	
 end;
-task.spawn(C_3b);
+task.spawn(C_35);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Arcaura.LocalScript
-local function C_3e()
-local script = G2L["3e"];
+local function C_38()
+local script = G2L["38"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14113,10 +14010,10 @@ local script = G2L["3e"];
 	end)
 	
 end;
-task.spawn(C_3e);
+task.spawn(C_38);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Apophenia.LocalScript
-local function C_41()
-local script = G2L["41"];
+local function C_3b()
+local script = G2L["3b"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14141,10 +14038,10 @@ local script = G2L["41"];
 	end)
 	
 end;
-task.spawn(C_41);
+task.spawn(C_3b);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Volta.LocalScript
-local function C_44()
-local script = G2L["44"];
+local function C_3e()
+local script = G2L["3e"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14162,10 +14059,10 @@ local script = G2L["44"];
 	end)
 	
 end;
-task.spawn(C_44);
+task.spawn(C_3e);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Phantasm.LocalScript
-local function C_47()
-local script = G2L["47"];
+local function C_41()
+local script = G2L["41"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14183,10 +14080,10 @@ local script = G2L["47"];
 	end)
 	
 end;
-task.spawn(C_47);
+task.spawn(C_41);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Hubfr.LocalScript
-local function C_4a()
-local script = G2L["4a"];
+local function C_44()
+local script = G2L["44"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14202,10 +14099,10 @@ local script = G2L["4a"];
 	end)
 	
 end;
-task.spawn(C_4a);
+task.spawn(C_44);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.LimitlessHub.LocalScript
-local function C_4d()
-local script = G2L["4d"];
+local function C_47()
+local script = G2L["47"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14221,10 +14118,10 @@ local script = G2L["4d"];
 	end)
 	
 end;
-task.spawn(C_4d);
+task.spawn(C_47);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Mahito.LocalScript
-local function C_50()
-local script = G2L["50"];
+local function C_4a()
+local script = G2L["4a"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14240,10 +14137,10 @@ local script = G2L["50"];
 	end)
 	
 end;
-task.spawn(C_50);
+task.spawn(C_4a);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Golden.LocalScript
-local function C_53()
-local script = G2L["53"];
+local function C_4d()
+local script = G2L["4d"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14259,10 +14156,10 @@ local script = G2L["53"];
 	end)
 	
 end;
-task.spawn(C_53);
+task.spawn(C_4d);
 -- StarterGui.SigmaHubv2.Frame.TsbTab.Gojo.LocalScript
-local function C_56()
-local script = G2L["56"];
+local function C_50()
+local script = G2L["50"];
 	-- LocalScript inside the TextButton
 	
 	local button = script.Parent
@@ -14282,10 +14179,547 @@ local script = G2L["56"];
 	end)
 	
 end;
-task.spawn(C_56);
+task.spawn(C_50);
+-- StarterGui.SigmaHubv2.Frame.TsbTab.DescriptionToggle.LocalScript
+local function C_54()
+local script = G2L["54"];
+	local Toggled = false
+	local button = script.Parent
+	local color = button.BackgroundColor3
+	local ArcauraButton = script.Parent.Parent.Arcaura
+	local ApopheniaButton = script.Parent.Parent.Apophenia
+	local VoltaButton = script.Parent.Parent.Volta
+	local MahitoButton = script.Parent.Parent.Mahito
+	local GoldenButton = script.Parent.Parent.Golden
+	local GojoButton = script.Parent.Parent.Gojo
+	local HubfrButton = script.Parent.Parent.Hubfr
+	
+	button.MouseButton1Click:Connect(function()
+		if Toggled == false then
+			ArcauraButton.Text = "ArcauraV2 (for garou)"
+			ApopheniaButton.Text = "Apophenia (for metal bat)"
+			VoltaButton.Text = "Volta (for sonic)"
+			MahitoButton.Text = "Mahito (for saitama)"
+			GoldenButton.Text = "Golden (for saitama)"
+			GojoButton.Text = "Gojo (for saitama)"
+			HubfrButton.Text = "Hub fr (garou reskins)"
+			color = Color3.new(17, 255, 0)
+			Toggled = true
+		elseif Toggled ==true then
+			ArcauraButton.Text = "ArcauraV2"
+			ApopheniaButton.Text = "Apophenia"
+			VoltaButton.Text = "Volta"
+			MahitoButton.Text = "Mahito"
+			GoldenButton.Text = "Golden"
+			GojoButton.Text = "Gojo"
+			HubfrButton.Text = "Hub fr"
+			color = Color3.new(255, 1, 1)
+			Toggled = false
+		end
+	end)
+end;
+task.spawn(C_54);
+-- StarterGui.SigmaHubv2.Frame.-.LocalScript
+local function C_58()
+local script = G2L["58"];
+	local button = script.Parent
+	local gui = button.Parent
+	local togglegui = button.Parent.Parent.Frame2.OpenGUI
+	
+	button.MouseButton1Click:Connect(function()
+		gui.Visible = false
+		togglegui.Visible = true
+		gui.Active = false
+	end)
+	
+	
+end;
+task.spawn(C_58);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Yellow.LocalScript
+local function C_5d()
+local script = G2L["5d"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_5d);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Cyan.LocalScript
+local function C_60()
+local script = G2L["60"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_60);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Red.LocalScript
+local function C_63()
+local script = G2L["63"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_63);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Pink.LocalScript
+local function C_66()
+local script = G2L["66"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_66);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Green.LocalScript
+local function C_69()
+local script = G2L["69"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_69);
+-- StarterGui.SigmaHubv2.Frame.ThemesTab.Orange.LocalScript
+local function C_6c()
+local script = G2L["6c"];
+	local ActualButton = script.Parent
+	local button = script.Parent.Parent
+	local TopBar = script.Parent.Parent.Parent.TextLabel
+	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
+	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
+	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
+	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local FixGUI = button.Parent.Parent.Frame2.FixGUI
+	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
+	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
+	
+	ActualButton.MouseButton1Click:Connect(function()
+		Speed.BackgroundColor = ActualButton.BackgroundColor
+		Jump.BackgroundColor = ActualButton.BackgroundColor
+		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
+		JumpInput.BackgroundColor = ActualButton.BackgroundColor
+		Gravity.BackgroundColor = ActualButton.BackgroundColor
+		GravityInput.BackgroundColor = ActualButton.BackgroundColor
+		FOVInput.BackgroundColor = ActualButton.BackgroundColor
+		FOV.BackgroundColor = ActualButton.BackgroundColor
+		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
+		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
+		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
+		Volta.BackgroundColor = ActualButton.BackgroundColor
+		Apophenia.BackgroundColor = ActualButton.BackgroundColor
+		Arcaura.BackgroundColor = ActualButton.BackgroundColor
+		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
+		JumpCon.BackgroundColor = ActualButton.BackgroundColor
+		Phantasm.BackgroundColor = ActualButton.BackgroundColor
+		Golden.BackgroundColor = ActualButton.BackgroundColor
+		Mahito.BackgroundColor = ActualButton.BackgroundColor
+		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
+		Hubfr.BackgroundColor = ActualButton.BackgroundColor
+		Gojo.BackgroundColor = ActualButton.BackgroundColor
+		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
+		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
+		TopBar.BackgroundColor = ActualButton.BackgroundColor
+		TsbTab.BackgroundColor = ActualButton.BackgroundColor
+		AdminTab.BackgroundColor = ActualButton.BackgroundColor
+		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
+		Themestab.BackgroundColor = ActualButton.BackgroundColor
+		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
+		FixGUI.BackgroundColor = ActualButton.BackgroundColor
+		CMDX.BackgroundColor = ActualButton.BackgroundColor
+	end)
+end;
+task.spawn(C_6c);
+-- StarterGui.SigmaHubv2.Frame.dragscript
+local function C_6d()
+local script = G2L["6d"];
+	local frame = script.Parent.Parent.Frame
+	local userInputService = game:GetService("UserInputService")
+	local dragToggle = nil
+	local dragStart = nil
+	local startPos = nil
+	
+	-- Function to update the position of the frame
+	local function updatePosition(input)
+		if dragToggle then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	end
+	
+	-- Function to begin dragging
+	local function onInputBegan(input, gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and not gameProcessedEvent then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end
+	
+	-- Connect input events
+	userInputService.InputChanged:Connect(updatePosition)
+	userInputService.InputBegan:Connect(onInputBegan)
+	
+end;
+task.spawn(C_6d);
 -- StarterGui.SigmaHubv2.Frame.TsbTabButton.LocalScript
-local function C_59()
-local script = G2L["59"];
+local function C_70()
+local script = G2L["70"];
 	local button = script.Parent
 	local SpeedInput = button.Parent.PlayerTab.SpeedInput
 	local JumpInput = button.Parent.PlayerTab.JumpInput
@@ -14318,6 +14752,8 @@ local script = G2L["59"];
 	local GreenTheme = button.Parent.ThemesTab.Green
 	local CMDX = button.Parent.AdminTab.CMDX
 	local OrangeTheme = button.Parent.ThemesTab.Orange
+	local DescriptionToggle = button.Parent.TsbTab.DescriptionToggle
+	local ToggleLabel = button.Parent.TsbTab.ToggleLabel
 	
 	button.MouseButton1Click:Connect(function()
 		Speed.Visible = false
@@ -14351,29 +14787,15 @@ local script = G2L["59"];
 		GreenTheme.Visible = false
 		CMDX.Visible = false
 		OrangeTheme.Visible = false
+		DescriptionToggle.Visible = true
+		ToggleLabel.Visible = true
 	end)
 	
 end;
-task.spawn(C_59);
--- StarterGui.SigmaHubv2.Frame.-.LocalScript
-local function C_5c()
-local script = G2L["5c"];
-	local button = script.Parent
-	local gui = button.Parent
-	local togglegui = button.Parent.Parent.Frame2.OpenGUI
-	
-	button.MouseButton1Click:Connect(function()
-		gui.Visible = false
-		togglegui.Visible = true
-		gui.Active = false
-	end)
-	
-	
-end;
-task.spawn(C_5c);
+task.spawn(C_70);
 -- StarterGui.SigmaHubv2.Frame.ThemeTabButton.LocalScript
-local function C_60()
-local script = G2L["60"];
+local function C_73()
+local script = G2L["73"];
 	local button = script.Parent
 	local SpeedInput = button.Parent.PlayerTab.SpeedInput
 	local JumpInput = button.Parent.PlayerTab.JumpInput
@@ -14406,6 +14828,8 @@ local script = G2L["60"];
 	local GreenTheme = button.Parent.ThemesTab.Green
 	local CMDX = button.Parent.AdminTab.CMDX
 	local OrangeTheme = button.Parent.ThemesTab.Orange
+	local DescriptionToggle = button.Parent.TsbTab.DescriptionToggle
+	local ToggleLabel = button.Parent.TsbTab.ToggleLabel
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -14440,495 +14864,169 @@ local script = G2L["60"];
 		GreenTheme.Visible = true	
 		CMDX.Visible = false
 		OrangeTheme.Visible = true
+		DescriptionToggle.Visible = false
+		ToggleLabel.Visible = false
 	end)
 	
-end;
-task.spawn(C_60);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Yellow.LocalScript
-local function C_64()
-local script = G2L["64"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
-end;
-task.spawn(C_64);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Cyan.LocalScript
-local function C_67()
-local script = G2L["67"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
-end;
-task.spawn(C_67);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Red.LocalScript
-local function C_6a()
-local script = G2L["6a"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
-end;
-task.spawn(C_6a);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Pink.LocalScript
-local function C_6d()
-local script = G2L["6d"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
-end;
-task.spawn(C_6d);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Green.LocalScript
-local function C_70()
-local script = G2L["70"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
-end;
-task.spawn(C_70);
--- StarterGui.SigmaHubv2.Frame.ThemesTab.Orange.LocalScript
-local function C_73()
-local script = G2L["73"];
-	local ActualButton = script.Parent
-	local button = script.Parent.Parent
-	local TopBar = script.Parent.Parent.Parent.TextLabel
-	local TsbTab = script.Parent.Parent.Parent.TsbTabButton
-	local PlayerTab = script.Parent.Parent.Parent.PlayerTabButton
-	local AdminTab = script.Parent.Parent.Parent.AdminTabButton
-	local Themestab = script.Parent.Parent.Parent.ThemeTabButton
-	local SpeedInput = button.Parent.PlayerTab.SpeedInput
-	local JumpInput = button.Parent.PlayerTab.JumpInput
-	local Speed = button.Parent.PlayerTab.Speed
-	local Jump = button.Parent.PlayerTab.Jump
-	local Gravity = button.Parent.PlayerTab.Gravity
-	local GravityInput = button.Parent.PlayerTab.GravityInput
-	local FOVInput = button.Parent.PlayerTab.FOVInput
-	local FOV = button.Parent.PlayerTab.FOV
-	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
-	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
-	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
-	local GlacierHub = button.Parent.TsbTab.GlacierHub
-	local Arcaura = button.Parent.TsbTab.Arcaura
-	local Apophenia = button.Parent.TsbTab.Apophenia
-	local Volta = button.Parent.TsbTab.Volta
-	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
-	local Phantasm = button.Parent.TsbTab.Phantasm
-	local Hubfr = button.Parent.TsbTab.Hubfr
-	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
-	local Mahito = button.Parent.TsbTab.Mahito
-	local Golden = button.Parent.TsbTab.Golden
-	local Gojo = button.Parent.TsbTab.Gojo
-	local Thumbnail = button.Parent.PlayerTab.Thumbnail
-	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
-	local FixGUI = button.Parent.Parent.Frame2.FixGUI
-	local OpenGUI = button.Parent.Parent.Frame2.OpenGUI
-	local CMDX = button.Parent.Parent.Frame.AdminTab.CMDX
-	
-	ActualButton.MouseButton1Click:Connect(function()
-		Speed.BackgroundColor = ActualButton.BackgroundColor
-		Jump.BackgroundColor = ActualButton.BackgroundColor
-		SpeedInput.BackgroundColor = ActualButton.BackgroundColor
-		JumpInput.BackgroundColor = ActualButton.BackgroundColor
-		Gravity.BackgroundColor = ActualButton.BackgroundColor
-		GravityInput.BackgroundColor = ActualButton.BackgroundColor
-		FOVInput.BackgroundColor = ActualButton.BackgroundColor
-		FOV.BackgroundColor = ActualButton.BackgroundColor
-		FatesAdmin.BackgroundColor = ActualButton.BackgroundColor
-		InfiniteYield.BackgroundColor = ActualButton.BackgroundColor
-		NamelessAdmin.BackgroundColor = ActualButton.BackgroundColor
-		Volta.BackgroundColor = ActualButton.BackgroundColor
-		Apophenia.BackgroundColor = ActualButton.BackgroundColor
-		Arcaura.BackgroundColor = ActualButton.BackgroundColor
-		GlacierHub.BackgroundColor = ActualButton.BackgroundColor
-		JumpCon.BackgroundColor = ActualButton.BackgroundColor
-		Phantasm.BackgroundColor = ActualButton.BackgroundColor
-		Golden.BackgroundColor = ActualButton.BackgroundColor
-		Mahito.BackgroundColor = ActualButton.BackgroundColor
-		LimitlessHub.BackgroundColor = ActualButton.BackgroundColor
-		Hubfr.BackgroundColor = ActualButton.BackgroundColor
-		Gojo.BackgroundColor = ActualButton.BackgroundColor
-		Thumbnail.BackgroundColor = ActualButton.BackgroundColor
-		WelcomeMsg.BackgroundColor = ActualButton.BackgroundColor
-		TopBar.BackgroundColor = ActualButton.BackgroundColor
-		TsbTab.BackgroundColor = ActualButton.BackgroundColor
-		AdminTab.BackgroundColor = ActualButton.BackgroundColor
-		PlayerTab.BackgroundColor = ActualButton.BackgroundColor
-		Themestab.BackgroundColor = ActualButton.BackgroundColor
-		OpenGUI.BackgroundColor = ActualButton.BackgroundColor
-		FixGUI.BackgroundColor = ActualButton.BackgroundColor
-		CMDX.BackgroundColor = ActualButton.BackgroundColor
-	end)
 end;
 task.spawn(C_73);
--- StarterGui.SigmaHubv2.Frame.dragscript
-local function C_74()
-local script = G2L["74"];
-	local frame = script.Parent.Parent
-	local userInputService = game:GetService("UserInputService")
-	local dragToggle = nil
-	local dragStart = nil
-	local startPos = nil
+-- StarterGui.SigmaHubv2.Frame.AdminTabButton.LocalScript
+local function C_76()
+local script = G2L["76"];
+	local button = script.Parent
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local YellowTheme = button.Parent.ThemesTab.Yellow
+	local CyanTheme = button.Parent.ThemesTab.Cyan
+	local RedTheme = button.Parent.ThemesTab.Red
+	local PinkTheme = button.Parent.ThemesTab.Pink
+	local GreenTheme = button.Parent.ThemesTab.Green
+	local CMDX = button.Parent.AdminTab.CMDX
+	local OrangeTheme = button.Parent.ThemesTab.Orange
+	local DescriptionToggle = button.Parent.TsbTab.DescriptionToggle
+	local ToggleLabel = button.Parent.TsbTab.ToggleLabel
 	
-	-- Function to update the position of the frame
-	local function updatePosition(input)
-		if dragToggle then
-			local delta = input.Position - dragStart
-			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		end
-	end
 	
-	-- Function to begin dragging
-	local function onInputBegan(input, gameProcessedEvent)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 and not gameProcessedEvent then
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end
-	
-	-- Connect input events
-	userInputService.InputChanged:Connect(updatePosition)
-	userInputService.InputBegan:Connect(onInputBegan)
+	button.MouseButton1Click:Connect(function()
+		Speed.Visible = false
+		Jump.Visible = false
+		SpeedInput.Visible = false
+		JumpInput.Visible = false
+		Gravity.Visible = false
+		GravityInput.Visible = false
+		FOVInput.Visible = false
+		FOV.Visible = false
+		FatesAdmin.Visible = true
+		InfiniteYield.Visible = true
+		NamelessAdmin.Visible = true
+		Volta.Visible = false
+		Apophenia.Visible = false
+		Arcaura.Visible = false
+		GlacierHub.Visible = false
+		JumpCon.Visible = false
+		Phantasm.Visible = false
+		Hubfr.Visible = false
+		LimitlessHub.Visible = false
+		Mahito.Visible = false
+		Golden.Visible = false
+		Gojo.Visible = false
+		Thumbnail.Visible = false
+		WelcomeMsg.Visible = false
+		YellowTheme.Visible = false
+		CyanTheme.Visible = false
+		RedTheme.Visible = false
+		PinkTheme.Visible = false
+		GreenTheme.Visible = false
+		CMDX.Visible = true
+		OrangeTheme.Visible = false
+		DescriptionToggle.Visible = false
+		ToggleLabel.Visible = false
+	end)
 	
 end;
-task.spawn(C_74);
+task.spawn(C_76);
+-- StarterGui.SigmaHubv2.Frame.PlayerTabButton.LocalScript
+local function C_79()
+local script = G2L["79"];
+	local button = script.Parent
+	local SpeedInput = button.Parent.PlayerTab.SpeedInput
+	local JumpInput = button.Parent.PlayerTab.JumpInput
+	local Speed = button.Parent.PlayerTab.Speed
+	local Jump = button.Parent.PlayerTab.Jump
+	local Gravity = button.Parent.PlayerTab.Gravity
+	local GravityInput = button.Parent.PlayerTab.GravityInput
+	local FOVInput = button.Parent.PlayerTab.FOVInput
+	local FOV = button.Parent.PlayerTab.FOV
+	local FatesAdmin = button.Parent.AdminTab.FatesAdmin
+	local InfiniteYield = button.Parent.AdminTab.InfiniteYield
+	local NamelessAdmin = button.Parent.AdminTab.NamelessAdmin
+	local GlacierHub = button.Parent.TsbTab.GlacierHub
+	local Arcaura = button.Parent.TsbTab.Arcaura
+	local Apophenia = button.Parent.TsbTab.Apophenia
+	local Volta = button.Parent.TsbTab.Volta
+	local JumpCon = button.Parent.PlayerTab.JumpConfirmation
+	local Phantasm = button.Parent.TsbTab.Phantasm
+	local Hubfr = button.Parent.TsbTab.Hubfr
+	local LimitlessHub = button.Parent.TsbTab.LimitlessHub
+	local Mahito = button.Parent.TsbTab.Mahito
+	local Golden = button.Parent.TsbTab.Golden
+	local Gojo = button.Parent.TsbTab.Gojo
+	local Thumbnail = button.Parent.PlayerTab.Thumbnail
+	local WelcomeMsg = button.Parent.PlayerTab.Welcomemsg
+	local YellowTheme = button.Parent.ThemesTab.Yellow
+	local CyanTheme = button.Parent.ThemesTab.Cyan
+	local RedTheme = button.Parent.ThemesTab.Red
+	local PinkTheme = button.Parent.ThemesTab.Pink
+	local GreenTheme = button.Parent.ThemesTab.Green
+	local CMDX = button.Parent.AdminTab.CMDX
+	local OrangeTheme = button.Parent.ThemesTab.Orange
+	local DescriptionToggle = button.Parent.TsbTab.DescriptionToggle
+	local ToggleLabel = button.Parent.TsbTab.ToggleLabel
+	
+	
+	button.MouseButton1Click:Connect(function()
+		Speed.Visible = true
+		Jump.Visible = true
+		SpeedInput.Visible = true
+		JumpInput.Visible = true
+		Gravity.Visible = true
+		GravityInput.Visible = true
+		FOVInput.Visible = true
+		FOV.Visible = true
+		FatesAdmin.Visible = false
+		InfiniteYield.Visible = false
+		NamelessAdmin.Visible = false
+		Volta.Visible = false
+		Apophenia.Visible = false
+		Arcaura.Visible = false
+		GlacierHub.Visible = false
+		JumpCon.Visible = true
+		Phantasm.Visible = false
+		Golden.Visible = false
+		Mahito.Visible = false
+		LimitlessHub.Visible = false
+		Hubfr.Visible = false
+		Gojo.Visible = false
+		Thumbnail.Visible = true
+		WelcomeMsg.Visible = true
+		YellowTheme.Visible = false
+		CyanTheme.Visible = false
+		RedTheme.Visible = false
+		PinkTheme.Visible = false
+		GreenTheme.Visible = false
+		CMDX.Visible = false
+		OrangeTheme.Visible = false
+		DescriptionToggle.Visible = false
+		ToggleLabel.Visible = false
+	end)
+	
+end;
+task.spawn(C_79);
 -- StarterGui.SigmaHubv2.Frame2.OpenGUI.LocalScript
-local function C_78()
-local script = G2L["78"];
+local function C_7d()
+local script = G2L["7d"];
 	local button = script.Parent
 	local gui = button.Parent.Parent.Frame
 	
@@ -14938,10 +15036,10 @@ local script = G2L["78"];
 		gui.Active = true
 	end)
 end;
-task.spawn(C_78);
+task.spawn(C_7d);
 -- StarterGui.SigmaHubv2.Frame2.FixGUI.LocalScript
-local function C_7b()
-local script = G2L["7b"];
+local function C_80()
+local script = G2L["80"];
 	local button = script.Parent
 	local gui = button.Parent.Parent.Frame
 	
@@ -14949,6 +15047,6 @@ local script = G2L["7b"];
 		gui.Position = UDim2.new(0.261, 0,0.28, 0)
 	end)
 end;
-task.spawn(C_7b);
+task.spawn(C_80);
 
 return G2L["1"], require;
